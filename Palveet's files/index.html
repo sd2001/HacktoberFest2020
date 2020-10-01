@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <title>
+        Basics of Git
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+    <h1 class="text-center">Basics of Git</h1>
+    <h5 class="text-center">Here I have compiled some basic git commands for beginners!</h5>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ol>
+                    <li>
+                        <h3> Git configuration </h3>
+                        <ul>
+                            <li>$ git config --global user.name “Your Name” Set the name that will be attached to your commits and tags.</li>
+                            <li>$ git config --global user.email “you@example.com” Set the e-mail address that will be attached to your commits and tags.</li>
+                            <li>$ git config --global color.ui auto Enable some colorization of Git output.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Starting A Project</h3>
+                        <ul>
+                            <li> $ git init [project name] Create a new local repository. If [project name] is provided, Git will create a new directory name [project name] and will initialize a repository inside it. If [project name] is not provided, then
+                                a new repository is initialized in the current directory.</li>
+                            <li>$ git clone [project url] Downloads a project with the entire history from the remote repository.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            Day-To-Day Work
+                        </h3>
+                        <ul>
+                            <li>$ git status Displays the status of your working directory. Options include new, staged, and modified files. It will retrieve branch name, current commit identifier, and changes pending commit.</li>
+                            <li>$ git add [file] Add a file to the staging area. Use in place of the full file path to add all changed files from the current directory down into the directory tree.</li>
+                            <li>$ git diff [file] Show changes between working directory and staging area.</li>
+                            <li>$ git diff --staged [file] Shows any changes between the staging area and the repository.</li>
+                            <li>$ git checkout -- [file] Discard changes in working directory. This operation is unrecoverable.</li>
+                            <li>$ git reset [file] Revert your repository to a previous known working state.</li>
+                            <li>$ git commit Create a new commit from changes added to the staging area. The commit must have a message!</li>
+                            <li>$ git rm [file] Remove file from working directory and staging area.</li>
+                            <li>$ git stash Put current changes in your working directory into stash for later use.</li>
+                            <li>$ git stash pop Apply stored stash content into working directory, and clear stash.</li>
+                            <li>$ git stash drop Delete a specific stash from all your previous stashes.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Git Branching Model</h3>
+                        <ul>
+                            <li>$ git branch [-a] List all local branches in repository. With -a: show all branches (with remote).</li>
+                            <li>$ git branch [branch_name] Create new branch, referencing the current HEAD.</li>
+                            <li> $ git checkout [-b][branch_name] Switch working directory to the specified branch. With -b: Git will create the specified branch if it does not exist.
+                            </li>
+                            <li> $ git merge [from name] Join specified [from name] branch into your current branch (the one you are on currently).
+                            </li>
+                            <li>$ git branch -d [name] Remove selected branch, if it is already merged into any other. -D instead of -d forces deletion. </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Reverting Changes</h3>
+                        <ul>
+                            <li> $ git reset [--hard] [target reference] Switches the current branch to the target reference, leaving a difference as an uncommitted change. When --hard is used, all changes are discarded.
+                            </li>
+                            <li>$ git revert [commit sha] Create a new commit, reverting changes from the specified commit. It generates an inversion of changes.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="text-center"> Credits : <a href="https://about.gitlab.com/images/press/git-cheat-sheet.pdf">Gitlab</a>
+        </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
