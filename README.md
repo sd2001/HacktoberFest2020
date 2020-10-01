@@ -36,7 +36,7 @@ git clone https://github.com/<YourUserName>/HacktoberFest2020
    - Create a new remote for the upstream repo with the command:
 
    ```
-   git remote add upstream https://github.com/kedark3/demo
+   git remote add upstream https://github.com/sd2001/HacktoberFest2020
    ```
 *In this case, "upstream repo" refers to the original repo you created your fork from.*
 
