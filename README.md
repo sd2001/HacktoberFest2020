@@ -42,11 +42,36 @@ git clone https://github.com/<YourUserName>/HacktoberFest2020
 
 *Now you can make changes to the code. The following code creates a new branch, makes an arbitrary change, and pushes it to new_branch:*
 
-4. Once you add all the files in your branch
-
-<p align='center'> 
- <img src="https://github.com/sd2001/HacktoberFest2020/blob/master/3.png" /></a>
+4. Once you add all the files in your branch, it time to push your code for generating a pull request.
+    ```
+    git status
+    ```
+    > This checks whether you are on your created branch or the master branch. If it shows master, type:
+      ```
+      git checkout <Your Branch Name>
+      ```
+      
+    Now its time for **the Git operations.** Always **git pull** to ensure that your files are updated.
+      ```
+      git pull origin master
+      ```
+      
+      ```
+      git add .
+      ```
+      
+      ```
+      git commit -S -m "Your Message"
+      ```
+      
+      ```
+      git push -u origin <Your Branch Name>
+      ```     
+ <p align='center'> 
+ <img src="https://github.com/sd2001/HacktoberFest2020/blob/master/6.png" /></a>
  </p>
+
+
  
 5. Once you push the changes to your repo, the **Compare & pull request** button will appear in GitHub.
 
