@@ -7,8 +7,7 @@ from tabulate import tabulate
 from datetime import datetime
 from matplotlib import pyplot as plt
 
-API_KEY = os.environ['API_KEY']
-owm = pyowm.OWM(API_KEY)
+
 mgr=owm.weather_manager()
 
 degree_sign= u'\N{DEGREE SIGN}'
