@@ -61,7 +61,7 @@ git clone https://github.com/<YourUserName>/HacktoberFest2020
       ```
       
       ```
-      git commit -S -m "Your Message"
+      git commit -m "Your Message"
       ```
       
       ```
