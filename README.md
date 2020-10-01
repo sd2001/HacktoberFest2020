@@ -12,8 +12,11 @@
 <div align="center">
  <img align="center" src="https://github.com/sd2001/HacktoberFest2020/blob/master/2.png" /></a>
  <img align="center" src="https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif" /></a> 
-</div>
  
+</div>
+<p align="center">
+<img src="http://ForTheBadge.com/images/badges/winter-is-coming.svg" /></a>
+</p> 
 ### <p align="center">😄To make a Pull Request, follow the steps⬇️:</p>
 
 1. Go to the top right corner of this page and click on the **Fork** Button.This creates a new copy of my demo repo under your GitHub user account with a URL like:
