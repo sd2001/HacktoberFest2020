@@ -10,14 +10,13 @@
  <img src="https://img.shields.io/github/license/sd2001/HacktoberFest2020?style=for-the-badge" /></a>
 </p>
 <p align="center">
-<h2>🤗Feel free to submit a PR💻 to have it merged and get a free Hacktoberfest tee👕 from Github🔮</h2> 
 
  <img src="https://github.com/sd2001/HacktoberFest2020/blob/master/2.png" /></a>
  <img src="https://github.com/sd2001/HacktoberFest2020/blob/master/1.svg" /></a>
  
 </p>
  
-### <p align="center">😄How to make a Pull Request, follow the steps⬇️:</p>
+### <p align="center">😄To make a Pull Request, follow the steps⬇️:</p>
 
 1. Go to the top right corner of this page and click on the **Fork** Button.This creates a new copy of my demo repo under your GitHub user account with a URL like:
 ```
