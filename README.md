@@ -1,4 +1,3 @@
-# 🤗HacktoberFest❄️ 2020
 <p align='center'> 
  <img src="https://img.shields.io/badge/-Hacktoberfest-brightgreen?style=for-the-badge" /></a>
  <img src="https://forthebadge.com/images/badges/built-with-love.svg" /></a>
