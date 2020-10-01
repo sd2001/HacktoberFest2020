@@ -7,7 +7,7 @@
  <img src="https://img.shields.io/github/stars/sd2001/Hacktoberfest2020?style=for-the-badge" /></a>
  <img src="https://img.shields.io/github/forks/sd2001/HacktoberFest2020?style=for-the-badge" /></a>
  <img src="https://img.shields.io/github/contributors/sd2001/HacktoberFest2020?style=for-the-badge" /></a>
- <img src="https://img.shields.io/github/license/sd2001/HacktoberFest2020?style=for-the-badge" /></a>
+ <img src="https://img.shields.io/badge/License-MIT-orange.svg?style=for-the-badge" /></a>
 </p>
 <p align="center">
 
