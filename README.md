@@ -9,12 +9,10 @@
  <img src="https://img.shields.io/github/contributors/sd2001/HacktoberFest2020?style=for-the-badge" /></a>
  <img src="https://img.shields.io/badge/License-MIT-orange.svg?style=for-the-badge" /></a>
 </p>
-<p align="center">
-
- <img src="https://github.com/sd2001/HacktoberFest2020/blob/master/2.png" /></a>
- <img src="https://github.com/sd2001/HacktoberFest2020/blob/master/1.svg" /></a>
- 
-</p>
+<div align="center">
+ <img align="center" src="https://github.com/sd2001/HacktoberFest2020/blob/master/2.png" /></a>
+ <img align="center" src="https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif" /></a> 
+</div>
  
 ### <p align="center">😄To make a Pull Request, follow the steps⬇️:</p>
 
@@ -88,15 +86,16 @@ git clone https://github.com/<YourUserName>/HacktoberFest2020
 
 7. Open a pull request by clicking the **Create pull request** button. This allows the repo's maintainers to review your contribution. From here, they can merge it if it is good, or they may ask you to make some changes.
 
-### <p>**Woo-Hooo🎉, You have made a PR to this repo🥳!**
+### <p align="center">**Woo-Hooo🎉, You have made a PR to this repo🥳!**
 
-![Happy](https://media.giphy.com/media/BQAk13taTaKYw/giphy.gif)
+<img align="center" src="https://media.giphy.com/media/BQAk13taTaKYw/giphy.gif" /></a>
 
 </p>
 
-### <p>**Thank You💜!**
- 
-![Coding](https://media.giphy.com/media/USV0ym3bVWQJJmNu3N/giphy.gif)
+### <p  align="center">**Thank You💜!**
+
+<img align="center" src="https://media.giphy.com/media/USV0ym3bVWQJJmNu3N/giphy.gif" /></a>
+
 
 </p>
 
