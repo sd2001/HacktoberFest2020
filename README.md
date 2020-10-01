@@ -66,7 +66,8 @@ git clone https://github.com/<YourUserName>/HacktoberFest2020
       
       ```
       git push -u origin <Your Branch Name>
-      ```     
+      ```
+          
  <p align='center'> 
  <img src="https://github.com/sd2001/HacktoberFest2020/blob/master/6.png" /></a>
  </p>
