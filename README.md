@@ -7,7 +7,11 @@
  <img src="https://img.shields.io/github/stars/sd2001/Hacktoberfest2020?style=for-the-badge" /></a>
  <img src="https://img.shields.io/github/forks/sd2001/HacktoberFest2020?style=for-the-badge" /></a>
  <img src="https://img.shields.io/github/contributors/sd2001/HacktoberFest2020?style=for-the-badge" /></a>
- <img src="https://img.shields.io/badge/License-MIT-orange.svg?style=for-the-badge" /></a>
+ <img src="https://img.shields.io/badge/License-MIT-red.svg?style=for-the-badge" /></a><br>
+ <img src="https://img.shields.io/github/issues-pr/sd2001/HacktoberFest2020?color=purple&style=for-the-badge" /></a> 
+ <img src="https://img.shields.io/github/issues-pr-closed-raw/sd2001/HacktoberFest2020?color=purple&style=for-the-badge" /></a><br>
+ <img src="https://img.shields.io/github/repo-size/sd2001/HacktoberFest2020?color=orange&style=for-the-badge" /></a>
+ 
 </p>
 <div align="center">
  <img align="center" src="https://github.com/sd2001/HacktoberFest2020/blob/master/2.png" /></a>
