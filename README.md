@@ -97,7 +97,7 @@ git clone https://github.com/<YourUserName>/HacktoberFest2020
  
 ### <p align="center">**Thank You💜!**
  
-<img align="center src="https://media.giphy.com/media/BQAk13taTaKYw/giphy.gif" /></a>
+<img align="center" src="https://media.giphy.com/media/BQAk13taTaKYw/giphy.gif" /></a>
 
 </p>
 
