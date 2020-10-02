@@ -94,14 +94,12 @@ git clone https://github.com/<YourUserName>/HacktoberFest2020
 7. Open a pull request by clicking the **Create pull request** button. This allows the repo's maintainers to review your contribution. From here, they can merge it if it is good, or they may ask you to make some changes.
 
 ### <p align="center">**Woo-Hooo🎉, You have made a PR to this repo🥳!**
+ 
+### **Thank You💜!**
+ 
+<img align="left" src="https://media.giphy.com/media/BQAk13taTaKYw/giphy.gif" /></a>
 
-<img align="center" src="https://media.giphy.com/media/BQAk13taTaKYw/giphy.gif" /></a>
-
-</p>
-
-### <p  align="center">**Thank You💜!**
-
-<img align="center" src="https://media.giphy.com/media/USV0ym3bVWQJJmNu3N/giphy.gif" /></a>
+<img align="right" src="https://media.giphy.com/media/USV0ym3bVWQJJmNu3N/giphy.gif" /></a>
 
 
 </p>
