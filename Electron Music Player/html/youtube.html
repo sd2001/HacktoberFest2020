@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/basic.css">
+    <title>Enounce</title>
+</head>
+
+<body class="subback">
+    <div class="container" id="link_paster">
+        <h1 class="condensed text-center">- EYT -</h1>
+        <input class="form-control" type="text" placeholder="Paste Link Here (video, playlist)" id="link_holder">
+        <a class="btn mainback text-white d-block my-2" onclick="playYoutubeFromLink()">Search & Play</a>
+    </div>
+
+    <div class="jumbotron row" id="detail_holder">
+        <div class="col-lg-3">
+            <h3 id="author"></h3>
+            <h6 id="title"></h6>
+        </div>
+        <div class="col-lg-9" id="secondary_holder">
+            <img id="music_art" style="max-height: 200px;">
+        </div>
+        <a class="btn d-block mainback subcolor" onclick="closeYoutube()">Back</a>
+
+    </div>
+    <div class="d-none">
+        <iframe height="200" width="200" id="invisible_player" src="" frameborder="0" allowscriptaccess="always" class=""></iframe>
+    </div>
+    <script src="scripts/youtube.js"></script>
+</body>
+
+</html>
