@@ -10,7 +10,7 @@
  <img src="https://img.shields.io/github/issues-pr/sd2001/HacktoberFest2020?color=purple&style=for-the-badge" /></a> 
  <img src="https://img.shields.io/github/issues-pr-closed-raw/sd2001/HacktoberFest2020?color=purple&style=for-the-badge" /></a><br>
  <img src="https://img.shields.io/github/repo-size/sd2001/HacktoberFest2020?color=ff69b4&style=for-the-badge" /></a>
- <img src="https://img.shields.io/badge/-Hacktoberfest-brightgreen?style=for-the-badge" /></a>
+
  
 </p>
 <div align="center">
@@ -23,6 +23,8 @@
 </p> 
 
 ### <p align="center">😄To make a Pull Request, follow the steps⬇️:</p>
+
+**Readme Pushes won't be merged. Try pushing a *genuine file* and not destroy the essence of this prestigious event.**
 
 1. Go to the top right corner of this page and click on the **Fork** Button.This creates a new copy of my demo repo under your GitHub user account with a URL like:
 ```
