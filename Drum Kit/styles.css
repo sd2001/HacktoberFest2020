@@ -1,9 +1,10 @@
 body {
   text-align: center;
   background-color: #283149;
+  cursor: url('drumstick.png'), auto;
 }
 
-h1 {
+h2 {
   font-size: 5rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
@@ -16,32 +17,71 @@ footer {
   font-family: sans-serif;
 }
 
+
+@-webkit-keyframes drumkit {
+  from {
+    text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #1b6ca8, 0 0 60px #9554b3, 0 0 70px #9554b3;
+  }
+
+  to {
+    text-shadow: 0 0 20px #eeeeee, 0 0 30px #b2ebf2, 0 0 40px #b2ebf2, 0 0 50px #00bcd4, 0 0 60px #00bcd4, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
 .w {
   background-image: url(images/tom1.png);
+}
+
+.w:hover{
+  transform: scale(1.25);
 }
 
 .a {
   background-image: url(images/tom2.png);
 }
 
+.a:hover{
+  transform: scale(1.25);
+}
+
 .s {
   background-image: url(images/tom3.png);
+}
+
+.s:hover{
+  transform: scale(1.25);
 }
 
 .d {
   background-image: url(images/tom4.png);
 }
 
+.d:hover{
+  transform: scale(1.25);
+}
+
 .j {
   background-image: url(images/snare.png);
+}
+
+.j:hover{
+  transform: scale(1.25);
 }
 
 .k {
   background-image: url(images/kick.png);
 }
 
+.k:hover{
+  transform: scale(1.25);
+}
+
 .l {
   background-image: url(images/crash.png);
+}
+
+.l:hover{
+  transform: scale(1.25);
 }
 
 .set {
