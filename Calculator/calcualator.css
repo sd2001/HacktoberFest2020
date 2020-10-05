@@ -1,0 +1,85 @@
+body{
+background-image: url("background.jpg");
+}
+
+.calc{
+    width: 400px;
+    height: 490px;
+    background-image: url("chappie.jpg");
+    background-size: 400px 700px;
+    background-position: 800px 600px;
+    opacity: 0.85;
+    margin-left: 400px;
+    margin-top: 30px;
+    padding-top: 10px;
+
+}
+#screen{
+  width: 80%;
+  margin-left: 36px;
+  height: 40px;
+  margin-top: 30px;
+  pointer-events: none;
+  border-style: solid;
+  border-color: rgb(157, 101, 201);
+  border-radius: 10%;
+}
+
+.btn{
+  width: 60px;
+  height: 45px;
+  font-weight: 900;
+  font-size: 20px;
+  color: rgb(0, 88, 122);
+  margin-left: 30px;
+  margin-top: 30px;
+  background: rgb(154, 179, 245);
+  border-radius: 20%;
+  border-style: solid;
+  border-color: rgb(50, 224, 196);
+}
+
+.btn:hover{
+  width: 60px;
+  height: 45px;
+  font-weight: 900;
+  font-size: 20px;
+  color: rgb(0, 88, 122);
+  margin-left: 30px;
+  margin-top: 30px;
+  background: #7579e7;
+  border-radius: 20%;
+  border-style: solid;
+  border-color: #2ecc71;
+  border-width: 5px;
+}
+
+.btneq {
+    border-radius: 40%;
+    border-width: 3px;
+    width: 60px;
+    height: 45px;
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(0, 88, 122);
+    margin-left: 30px;
+    margin-top: 30px;
+    background: rgb(157, 101, 201);
+    border-style: solid;
+    border-color: rgb(50, 224, 196);
+}
+
+.btneq:hover{
+  width: 60px;
+  height: 45px;
+  font-weight: 900;
+  font-size: 20px;
+  color: rgb(0, 88, 122);
+  margin-left: 30px;
+  margin-top: 30px;
+  background: #a37eba;
+  border-radius: 20%;
+  border-style: solid;
+  border-color: #2ecc71;
+  border-width: 5px;
+}

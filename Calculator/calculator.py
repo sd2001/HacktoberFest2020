@@ -8,7 +8,7 @@ def mult(a, b):
     return (a * b)
 def div(a, b):
     return (a / b)
-
+ 
 x = int(input("First number: "))
 y = int(input("Second number: "))
 
