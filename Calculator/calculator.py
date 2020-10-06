@@ -1,34 +1,62 @@
-# Simple Calculator
-def add(a, b):
-    return a + b
-def sub(a, b):
-    return a - b
-def mult(a, b):
-    return a * b
-def div(a, b):
-    return (a / b)
-def mod(a, b):
-    return a%b
-x = int(input("First number: "))
-y = int(input("Second number: "))
+# -*- coding: utf-8 -*-
 
-print("\n1 - add")
-print("2 - subtract")
-print("3 - multiply")
-print("4 - divide")
-print("5 - Remainder")
+print("Calculator: ")
+while (True):
+  print("")
+  print("-------------------------------------")
+  print("\nPress 1 for Addition: ")
+  print("Press 2 for Subtraction: ")
+  print("Press 3 for Multiplication: ")
+  print("Press 4 for Division: ")
+  print("Press 5 to Quit: ")
+  
+  print("") 
+  
+  a = int(input("Enter Your Choice: "))
 
-choice = int(input("Choose: "))
+  if (a==1):
+      print("\n---Addition---\n")
+      try:
+          x = float(input("Enter 1st Number: "))
+          y = float(input("Enter 2nd Number: "))
+          print("\nAddition Result of {} and {} = {}".format(x,y,x+y))
+      except ValueError:
+          print("Please enter numbers.")
+  elif (a==2):
+      print("\n---Subtraction---\n")
+      try:
+          x = float(input("Enter 1st Number: "))
+          y = float(input("Enter 2nd Number: "))
+          print("\nSubtraction Result of {} and {} = {}".format(x,y,x-y)) 
+      except ValueError:
+          print("Please enter numbers.")
+    
+  elif (a==3):
+      print("\n---Multiplication---\n")
+      try:
+          x = float(input("Enter 1st Number: "))
+          y = float(input("Enter 2nd Number: "))
+          print("\nMultiplication Result of {} and {} = {}".format(x,y,x*y))  
+      except ValueError:
+          print("Please enter numbers.")
+    
+  elif (a==4):
+      print("\n---Division---\n")
+      try:
+        x = float(input("Enter 1st Number: "))
+        y = float(input("Enter 2nd Number: "))
+        c = x/y
+        print("\nDivision Result of {} and {} = {}".format(x,y,c))
+      except ZeroDivisionError:
+        print("\nDivision by 0 is not accepted.")
+      except ValueError:
+        print("Please enter numbers.")
 
-if (choice == 1):
-    print(add(x,y))
-elif (choice == 2):
-    print(sub(x,y))
-elif (choice == 3):
-    print(mult(x,y))
-elif (choice == 4):
-    print(div(x,y))
-elif (choice==5):
-    print(mod(x,y))
-else:
-    print("Invalid Choice!")
+  elif (a==5):
+    print("\nThankyou for using the Calculator.")
+    print("-------------------------------------")
+    break
+  else:
+    print("\nPlease enter a number from 1-5.")
+    
+    
