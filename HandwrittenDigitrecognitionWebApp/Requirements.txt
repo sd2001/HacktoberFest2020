@@ -1,0 +1,6 @@
+numpy
+opencv-python
+tensorflow
+keras
+streamlit
+streamlit-drawable-canvas==0.1.1
