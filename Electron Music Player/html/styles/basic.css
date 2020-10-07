@@ -1,0 +1,25 @@
+.condensed {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.maincolor {
+    color: #333333;
+}
+
+.mainback {
+    background-color: #333333;
+}
+
+.subcolor {
+    color: #ecf2f5;
+}
+
+.subback {
+    background-color: #ecf2f5;
+}
+
+.maingif {
+    background-image: url('../gif/main.gif');
+    /* background-size: 300px !important; */
+    background-position-y: 100px;
+}

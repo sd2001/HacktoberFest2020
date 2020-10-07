@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/basic.css">
+    <title>Enounce</title>
+</head>
+
+<body class="maingif">
+    <div class="container-fluid d-block mx-auto mt-5">
+        <h1 class="condensed text-center maincolor"> Music Player </h1>
+    </div>
+    <div>
+        <a onclick="getMusic()" class="btn mainback text-white d-block border border-white">Scan Music</a>
+        <a id="switch-to-youtube" class="btn mainback text-white d-block border border-white">Switch</a>
+    </div>
+    <div class="container">
+        <ul class="list-unstyled" id='music_list'></ul>
+    </div>
+    <div class="container d-block" id="music_player">
+    </div>
+    <script src="scripts/player.js"></script>
+</body>
+
+</html>
