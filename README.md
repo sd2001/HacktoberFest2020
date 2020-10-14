@@ -1,4 +1,3 @@
-# 🤗HacktoberFest❄️ 2020
 <p align='center'> 
  <img src="https://img.shields.io/badge/-Hacktoberfest-brightgreen?style=for-the-badge" /></a>
  <img src="https://forthebadge.com/images/badges/built-with-love.svg" /></a>
@@ -7,16 +6,25 @@
  <img src="https://img.shields.io/github/stars/sd2001/Hacktoberfest2020?style=for-the-badge" /></a>
  <img src="https://img.shields.io/github/forks/sd2001/HacktoberFest2020?style=for-the-badge" /></a>
  <img src="https://img.shields.io/github/contributors/sd2001/HacktoberFest2020?style=for-the-badge" /></a>
- <img src="https://img.shields.io/badge/License-MIT-orange.svg?style=for-the-badge" /></a>
-</p>
-<p align="center">
+ <img src="https://img.shields.io/badge/License-MIT-orange.svg?style=for-the-badge" /></a><br>
+ <img src="https://img.shields.io/github/issues-pr/sd2001/HacktoberFest2020?color=purple&style=for-the-badge" /></a> 
+ <img src="https://img.shields.io/github/issues-pr-closed-raw/sd2001/HacktoberFest2020?color=purple&style=for-the-badge" /></a><br>
+ <img src="https://img.shields.io/github/repo-size/sd2001/HacktoberFest2020?color=ff69b4&style=for-the-badge" /></a>
 
- <img src="https://github.com/sd2001/HacktoberFest2020/blob/master/2.png" /></a>
- <img src="https://github.com/sd2001/HacktoberFest2020/blob/master/1.svg" /></a>
  
 </p>
+<div align="center">
+ <img align="center" src="https://github.com/sd2001/HacktoberFest2020/blob/master/2.png" /></a>
+ <img align="center" src="https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif" /></a> 
  
+</div>
+<p align="center">
+<img src="http://ForTheBadge.com/images/badges/winter-is-coming.svg" /></a>
+</p> 
+
 ### <p align="center">😄To make a Pull Request, follow the steps⬇️:</p>
+
+**Readme Pushes won't be merged. Try pushing a *genuine file* and not destroy the essence of this prestigious event.**
 
 1. Go to the top right corner of this page and click on the **Fork** Button.This creates a new copy of my demo repo under your GitHub user account with a URL like:
 ```
@@ -42,11 +50,37 @@ git clone https://github.com/<YourUserName>/HacktoberFest2020
 
 *Now you can make changes to the code. The following code creates a new branch, makes an arbitrary change, and pushes it to new_branch:*
 
-4. Once you add all the files in your branch
-
-<p align='center'> 
- <img src="https://github.com/sd2001/HacktoberFest2020/blob/master/3.png" /></a>
+4. Once you add all the files in your branch, it time to push your code for generating a pull request.
+    ```
+    git status
+    ```
+    > This checks whether you are on your created branch or the master branch. If it shows master, type:
+      ```
+      git checkout <Your Branch Name>
+      ```
+      
+    Now its time for **the Git operations.** Always **git pull** to ensure that your files are updated.
+      ```
+      git pull origin master
+      ```
+      
+      ```
+      git add .
+      ```
+      
+      ```
+      git commit -m "Your Message"
+      ```
+      
+      ```
+      git push -u origin <Your Branch Name>
+      ```
+          
+ <p align='center'> 
+ <img src="https://github.com/sd2001/HacktoberFest2020/blob/master/6.png" /></a>
  </p>
+
+
  
 5. Once you push the changes to your repo, the **Compare & pull request** button will appear in GitHub.
 
@@ -62,38 +96,8 @@ git clone https://github.com/<YourUserName>/HacktoberFest2020
 
 7. Open a pull request by clicking the **Create pull request** button. This allows the repo's maintainers to review your contribution. From here, they can merge it if it is good, or they may ask you to make some changes.
 
-### <p>**Woo-Hooo🎉, You have made a PR to this repo🥳!**
-
-![Happy](https://media.giphy.com/media/BQAk13taTaKYw/giphy.gif)
-
-</p>
-
-### <p>**Thank You💜!**
+### <p align="center">**Woo-Hooo🎉, You have made a PR to this repo🥳!**</p>
  
-![Coding](https://media.giphy.com/media/USV0ym3bVWQJJmNu3N/giphy.gif)
-
-</p>
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-
+### <p align="center">**Thank You💜!**
+ 
+<img align="left" width=430px height=250px src="https://media.giphy.com/media/BQAk13taTaKYw/giphy.gif" /><img align="right" width=430px  height=250px src="https://media.giphy.com/media/fsULJFFGv8X3G/giphy.gif" /></a>

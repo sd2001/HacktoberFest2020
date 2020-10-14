@@ -1,0 +1,33 @@
+{
+    "name": "enounce",
+    "version": "1.0.0",
+    "description": "Music Player For Windows",
+    "main": "enounce.js",
+    "scripts": {
+        "start": "electron .",
+        "dist": "electron-builder"
+    },
+    "keywords": [
+        "Music"
+    ],
+    "author": "aptinstaller",
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "^4.5.2",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1"
+    },
+    "build": {
+        "appId": "com.aptinstaller.enounce",
+        "productName": "Enounce",
+        "icon" : "enounce.ico",
+        "target": "NSIS",
+        "directories": {
+            "output": "build"
+        },
+        "nsis": {
+            "allowToChangeInstallationDirectory": true,
+            "oneClick": false
+        }
+    }
+}

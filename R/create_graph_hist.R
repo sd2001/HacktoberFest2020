@@ -1,0 +1,5 @@
+Tipo_de_sangue <- c(2,1,4,1,1,1,2,4,2,1,1,3,4,4,1,4,4,1,1,2,1,1,1,4,4,4,1,4,1,4,4, 1, 4, 3, 4, 4, 1,3,2,2)
+freq = table(Tipo_de_sangue)
+png(filename = "quest1-c.png", width = 800, height = 600)
+hist(Tipo_de_sangue,col = c("violet","pink","black","lightblue","black","springgreen"), main = "Histograma - Banco de sangue", ylab = "Frequência" )
+legend(x=2, y=15, xpd=TRUE, ncol=2, legend=c("Tipo A = 1", "Tipo B = 2", "Tipo AB = 3", "Tipo O = 4"), fill=c("violet","pink","lightblue","springgreen"), bty="n")
