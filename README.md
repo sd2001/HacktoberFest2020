@@ -1,25 +1,24 @@
 <p align='center'> 
- <img src="https://img.shields.io/badge/-Hacktoberfest-brightgreen?style=for-the-badge" /></a>
- <img src="https://forthebadge.com/images/badges/built-with-love.svg" /></a>
- <img src="https://img.shields.io/badge/-By%20Swarnabha%20Das-yellow?style=for-the-badge" /></a><br>
-  <img src="https://img.shields.io/github/issues/sd2001/HacktoberFest2020?style=for-the-badge" /></a>
- <img src="https://img.shields.io/github/stars/sd2001/Hacktoberfest2020?style=for-the-badge" /></a>
- <img src="https://img.shields.io/github/forks/sd2001/HacktoberFest2020?style=for-the-badge" /></a>
- <img src="https://img.shields.io/github/contributors/sd2001/HacktoberFest2020?style=for-the-badge" /></a>
- <img src="https://img.shields.io/badge/License-MIT-orange.svg?style=for-the-badge" /></a><br>
- <img src="https://img.shields.io/github/issues-pr/sd2001/HacktoberFest2020?color=purple&style=for-the-badge" /></a> 
+ <img src="https://img.shields.io/badge/-Hacktoberfest-brightgreen?style=for-the-badge" />
+ <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
+ <img src="https://img.shields.io/badge/-By%20Swarnabha%20Das-yellow?style=for-the-badge" /><br>
+  <img src="https://img.shields.io/github/issues/sd2001/HacktoberFest2020?style=for-the-badge" />
+ <img src="https://img.shields.io/github/stars/sd2001/Hacktoberfest2020?style=for-the-badge" />
+ <img src="https://img.shields.io/github/forks/sd2001/HacktoberFest2020?style=for-the-badge" />
+ <img src="https://img.shields.io/github/contributors/sd2001/HacktoberFest2020?style=for-the-badge" />
+ <img src="https://img.shields.io/badge/License-MIT-orange.svg?style=for-the-badge" /><br>
+ <img src="https://img.shields.io/github/issues-pr/sd2001/HacktoberFest2020?color=purple&style=for-the-badge" />
  <img src="https://img.shields.io/github/issues-pr-closed-raw/sd2001/HacktoberFest2020?color=purple&style=for-the-badge" /></a><br>
- <img src="https://img.shields.io/github/repo-size/sd2001/HacktoberFest2020?color=ff69b4&style=for-the-badge" /></a>
-
- 
+ <img src="https://img.shields.io/github/repo-size/sd2001/HacktoberFest2020?color=ff69b4&style=for-the-badge" />
 </p>
+
 <div align="center">
- <img align="center" src="https://github.com/sd2001/HacktoberFest2020/blob/master/2.png" /></a>
- <img align="center" src="https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif" /></a> 
- 
+ <p align="center"><img src="https://github.com/sd2001/HacktoberFest2020/blob/master/2.png" /></p>
+ <p align="center"><img src="https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif" /></p>
 </div>
+
 <p align="center">
-<img src="http://ForTheBadge.com/images/badges/winter-is-coming.svg" /></a>
+ <img src="http://ForTheBadge.com/images/badges/winter-is-coming.svg" />
 </p> 
 
 ### <p align="center">😄To make a Pull Request, follow the steps⬇️:</p>
@@ -98,6 +97,6 @@ git clone https://github.com/<YourUserName>/HacktoberFest2020
 
 ### <p align="center">**Woo-Hooo🎉, You have made a PR to this repo🥳!**</p>
  
-### <p align="center">**Thank You💜!**
+### <p align="center">**Thank You💜!**</p>
  
-<img align="left" width=430px height=250px src="https://media.giphy.com/media/BQAk13taTaKYw/giphy.gif" /><img align="right" width=430px  height=250px src="https://media.giphy.com/media/fsULJFFGv8X3G/giphy.gif" /></a>
+<p align="center"><img width=400px height=250px src="https://media.giphy.com/media/BQAk13taTaKYw/giphy.gif" /><p>&nbsp;<img width=400px  height=250px src="https://media.giphy.com/media/fsULJFFGv8X3G/giphy.gif"/></p>
