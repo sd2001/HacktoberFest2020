@@ -1,17 +1,17 @@
-const Joi = require('@hapi/joi')
+const joi = require('@hapi/joi')
 
 const registerValidation = data => {
-    const schema = Joi.object({
-        name: Joi.string().min(15).required(),
-        email: Joi.string().min(25).required(),
-        password: Joi.string().min(15).required()
+    const schema = joi.object({
+        name: joi.string().min(15).required(),
+        email: joi.string().min(25).required(),
+        password: joi.string().min(15).required()
     });
     return schema.validate(data)
 }
 const loginValidation = data => {
-    const schema = Joi.object({
-        email: Joi.string().min(16).required(),
-        password: Joi.string().min(8).required()
+    const schema = joi.object({
+        email: joi.string().min(16).required(),
+        password: joi.string().min(8).required()
     });
 
     return schema.validate(data)
