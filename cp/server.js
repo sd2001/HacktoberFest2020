@@ -23,7 +23,7 @@ mongoose.connect(process.env.mongoURI, { useNewUrlParser: true, useUnifiedTopolo
 
 
 
-const PORT = 5500;
+const PORT = 3000;
 app.listen(PORT, '127.0.0.1', () => {
     console.log(`server started at port: ${PORT}`)
 })
