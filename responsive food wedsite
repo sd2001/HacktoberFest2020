@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant</title>
+    <link rel="stylesheet" href="frontpage.css">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./magnific/magnific-popup.css">
+</head>
+<body>
+    <!--Nav bar-->
+   
+    <div id="menu" class="menu">
+        <div id="menu-bar" onclick="onClickMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+   
+    <ul id="nav" class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </div>
+</div>
+    <!--End of Nav bar-->
+    <!--Header===-->
+    <header class="header">
+        <div class="hero">
+            <h1 class="title">Food For Health</h1>
+            <a href="#" class="hero-button pulsate">Book a table</a>
+  
+    </header>
+    
+    <!--End of Header==================-->
+     <!---=====About Section=====-->
+      <section id="about">
+       <div>
+       <h2 class="title-text">About Us</h2>
+    </div>
+    <div class="about-center">
+        <!---Single item-->
+        <article class="about">
+            <div class="about-icon"><i class="fas fa-mug-hot"></i></div>
+            <div class="about-text">
+                <h2 class="about-subtitle">Drinks</h2>
+                <p class="about-info">Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Quisquam, temporibus!</p>
+            </div>
+        </article>
+        <!--End of single item-->
+        <!---Single item-->
+        <article class="about">
+            <div class="about-icon"><i class="fas fa-utensils"></i></div>
+            <div class="about-text">
+                <h2 class="about-subtitle">Healthy Food</h2>
+                <p class="about-info">Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Quisquam, temporibus!</p>
+            </div>
+        </article>
+        <!--End of single item-->
+        <!---Single item-->
+        <article class="about">
+            <div class="about-icon"><i class="fas fa-mortar-pestle"></i></div>
+            <div class="about-text">
+                <h2 class="about-subtitle">Organic Food</h2>
+                <p class="about-info">Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Quisquam, temporibus!</p>
+            </div>
+        </article>
+        <!--End of single item-->
+        <!---Single item-->
+        <article class="about">
+            <div class="about-icon"><i class="fas fa-drumstick-bite"></i></div>
+            <div class="about-text">
+                <h2 class="about-subtitle">White Meat</h2>
+                <p class="about-info">Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Quisquam, temporibus!</p>
+            </div>
+        </article>
+        <!--End of single item-->
+        <!---Single item-->
+        <article class="about">
+            <div class="about-icon"><i class="fas fa-fish"></i></div>
+            <div class="about-text">
+                <h2 class="about-subtitle">Sea Food</h2>
+                <p class="about-info">Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Quisquam, temporibus!</p>
+            </div>
+        </article>
+        <!--End of single item-->
+        <!---Single item-->
+        <article class="about">
+            <div class="about-icon"><i class="fas fa-pepper-hot "></i></div>
+            <div class="about-text">
+                <h2 class="about-subtitle">Hot & Spicy</h2>
+                <p class="about-info">Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Quisquam, temporibus!</p>
+            </div>
+        </article>
+        <!--End of single item-->
+    </div>   
+   </section>
+
+   <!--=====End of About Section============-->
+   <!---Menu Section---=========-->
+   <section class="menu" id="menu">
+       <article class="menu-image"></article>
+       <article class="menu-text">
+           <div class="menu-text-center">
+               <h1>Our Menu</h1>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing 
+                elit. Aut omnis nam iusto praesentium inventore vitae 
+                esse tempora repellendus.</p>
+                <a href="#">Explore</a>
+           </div>
+       </article>
+   </section>
+   <!---End of Menu Section============-->
+   
+   <!---Social Icons-->
+   <section id="social-icons">
+       <a href="#"><i class="fab fa-facebook facebook"></i></a>
+       <a href="#"><i class="fab fa-twitter twitter"></i></a>
+       <a href="#"><i class="fab fa-instagram instagram"></i></a>
+       <a href="#"><i class="fab fa-google-plus plus"></i></a>
+   </section>
+   <!--End of Social Icons-->
+   <!----------============Counter / Numbers-===================-->
+      <section id="numbers">
+       <article class="number">
+           <i class="fas fa-cloud-meatball"></i>
+           <p>50</p>
+          <h3> Meat dishes</h3>
+        </article>
+        <article class="number">
+            <i class="fas fa-cheese"></i>
+            <p>35</p>
+           <h3> Cheese Variations</h3>
+         </article>
+         <article class="number">
+            <i class="fas fa-pizza-slice"></i>
+            <p>25</p>
+           <h3> Pizzas</h3>
+         </article>
+         <article class="number">
+            <i class="fas fa-ice-cream"></i>
+            <p>40</p>
+           <h3> Desserts</h3>
+         </article>
+   </section>
+   <!--End of Counter===================-->
+   <!--=======-----------Card Section-----====================-->
+   <section id="food">
+       <div>
+       <h2 class="title-text"> Food Fusion</h2>
+        </div>
+      <div class="food-container">
+              <!--======Card Start ----============-->
+      <article class="food-card">
+              <img src="photo/restaurant3.webp" class="food-img"alt="">
+              <div class="img-text">
+                  <h1>Breakfast</h1>
+              </div>
+              <div class="img-footer">
+                  <div class="footer-icon">
+                    <i class="fas fa-dollar-sign">25</i>
+                  </div>
+                  <div class="footer-btn">
+                    <button type="button"class="food-btn">Order Now</button>  
+                  </div>
+              </div>
+              </article>
+              <article class="food-card">
+                <img src="photo/restaurant3.webp" class="food-img"alt="">
+                <div class="img-text">
+                    <h1>Lunch</h1>
+                </div>
+                <div class="img-footer">
+                    <div class="footer-icon">
+                      <i class="fas fa-dollar-sign">35</i>
+                    </div>
+                    <div class="footer-btn">
+                      <button type="button"class="food-btn">Order Now</button>  
+                    </div>
+                </div>
+                </article>
+                <article class="food-card">
+                    <img src="photo/restaurant3.webp" class="food-img"alt="">
+                    <div class="img-text">
+                        <h1>Dinner</h1>
+                    </div>
+                    <div class="img-footer">
+                        <div class="footer-icon">
+                          <i class="fas fa-dollar-sign">45</i>
+                        </div>
+                        <div class="footer-btn">
+                          <button type="button"class="food-btn">Order Now</button>  
+                        </div>
+                    </div>
+                    </article>
+       </div>
+       
+      
+       
+   </section>
+       <!--======End of Card =========-->
+
+     <!--=====End of Card Section=================-->
+       <!--Gallery Section====================-->
+    <section id="gallery">
+        <div>
+        <h2 class="title-text">Main Cuisines</h2>
+     </div>
+     <div id="gallery-center">
+         <article class="gallery-item">
+             <a href="photo/food1.webp">
+                <img src="photo/food1.webp"  width="257px"; height="176px"alt="">
+            </a>
+         </article>
+         <article class="gallery-item">
+            <a href="photo/food2.webp">
+                <img src="photo/food2.webp"  width="257px"; height="176px"alt="">
+            </a>
+        </article>
+        <article class="gallery-item">
+            <a href="photo/food3.webp">
+                <img src="photo/food3.webp " width="257px"; height="176px" alt="">
+            </a>
+        </article>
+        <article class="gallery-item">
+            <a href="photo/food4.webp">
+                <img src="photo/food4.webp"  width="257px"; height="176px"alt="">
+            </a>
+        </article>
+        <article class="gallery-item">
+            <a href="photo/food5.webp">
+                <img src="photo/food5.webp" width="257px"; height="176px" alt="">
+            </a>
+        </article>
+        <article class="gallery-item">
+            <a href="photo/food6.jpg">
+                <img src="photo/food6.jpg">
+            </a>
+        </article>
+        <article class="gallery-item">
+            <a href="photo/food7.webp">
+                <img src="photo/food7.webp" alt="">
+            </a>
+        </article>
+        <article class="gallery-item">
+            <a href="photo/food8.webp">
+                <img src="photo/food8.webp" alt="">
+            </a>
+        </article>
+     </div>
+     </section>
+       <!---End of Gallery Section===========-->
+       <!---footer========-->
+       <footer class="footer">
+
+        <div class="section-center">
+            <p class="text">
+                &copy; <span>Food For Health</span> 
+            </p>
+        </div>
+
+       </footer>
+
+       
+  
+     
+   
+
+
+
+     
+
+
+
+
+<script src="onClickMenu.js"></script>
+<!--Magnific POPup Jquery also-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="magnific/jquery.magnific-popup.min.js"></script>
+<script src="magnific/magnific.js"></script>
+</body>
+</html>
