@@ -1,0 +1,3 @@
+[submodule "DevRadar-Api"]
+	path = DevRadar-Api
+	url = https://github.com/clebsonf/DevRadar-Api
