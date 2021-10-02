@@ -24,6 +24,6 @@ int main()
 		SetConsoleTextAttribute(h, i);
 		cout << "Your name is " << name << endl;
 	}
-	
+	cout<<"Hello World";
 	return 0;
 }
