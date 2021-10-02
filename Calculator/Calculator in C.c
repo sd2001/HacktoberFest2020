@@ -19,9 +19,13 @@ int main(int argc, char const *argv[])
         printf("Enter two number here to susbstract-:\n");
         scanf("%d%d", &a, &b);
         printf("The substraction of %d and %d is %d", a,b, a-b);
+            
+	cout<<"Hello World";
         break;
     case 3:
         printf("Enter two number to multiply-:");
+            
+	cout<<"Hello World";
         scanf("%d%d", &a, &b);
         printf("The multiplication of %d and %d is %d\n", a,b, a*b);
         break;
